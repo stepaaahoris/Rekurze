@@ -27,22 +27,19 @@ long fibonacci(int x) {
 	}
 }
 
-
 float urok(int x) {
-	if (x <= 1) {
-		return x * 1,01;
-	}
-	else {
-		return urok(x - 1);
-	}
+	if (x <= 1) return x * 1.01;
+	else return urok(x - 1) * 1.01;
 }
-
-
 
 int main()
 {
+	printf("Buňky");
 	printf("%d\n", bunky(8));
+	printf("factorial");
 	printf("%d\n", faktorial(3));
+	printf("fibonacci");
 	printf("%d\n", fibonacci(2));
+	printf("úrok");
 	printf("%f\n", urok(4));
 }
