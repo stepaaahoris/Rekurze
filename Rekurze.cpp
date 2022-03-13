@@ -1,4 +1,4 @@
-﻿#include <stdio.h>
+#include <stdio.h>
 
 
 long faktorial(int x) {
@@ -34,12 +34,12 @@ float urok(int x) {
 
 int main()
 {
-	printf("Buňky");
+	printf("Bunky: ");
 	printf("%d\n", bunky(8));
-	printf("factorial");
+	printf("Factorial: ");
 	printf("%d\n", faktorial(3));
-	printf("fibonacci");
+	printf("Fibonacci: ");
 	printf("%d\n", fibonacci(2));
-	printf("úrok");
+	printf("Urok: ");
 	printf("%f\n", urok(4));
 }
